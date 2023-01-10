@@ -1,6 +1,6 @@
 # Rust Blinky Example
 
-> A minimal Rust project for RISC-V MCU (GD32VF103)
+> A minimal Rust embedded project for RISC-V MCU (GD32VF103).
 
 ## Prerequisites
 
@@ -31,3 +31,5 @@ $ cd gd32vf103-rust-blinky
 $ cargo build --release
 $ cargo objcopy --target riscv32imac-unknown-none-elf --release -- -O binary firmware.bin
 ```
+
+The generated `firmware.bin` can be uploaded to the MCU using `GD-Link Programmer` or `dfu-utils`.
