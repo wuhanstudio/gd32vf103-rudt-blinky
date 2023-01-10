@@ -1,0 +1,15 @@
+[package]
+name = "gd32vf103-rust-blinky"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+longan-nano = "0.3.0"
+gd32vf103xx-hal = "0.5.0"
+embedded-hal = "0.2.6"
+nb = "1.0.0"
+riscv = "0.6.0"
+riscv-rt = "0.10.0"
+panic-halt = "0.2.0"
