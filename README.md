@@ -33,3 +33,7 @@ $ cargo objcopy --target riscv32imac-unknown-none-elf --release -- -O binary fir
 ```
 
 The generated `firmware.bin` can be uploaded to the MCU using `GD-Link Programmer` or `dfu-utils`.
+
+By default, the LED uses pin PA7. You may change it in `src\main.rs`.
+
+![](doc/board.jpeg)
